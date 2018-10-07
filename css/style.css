@@ -71,6 +71,16 @@ ul.g_meny li a:hover:not(.active){  /* :hover псевдокласс котор�
     background: #82B3B4;}
 
 
+.body_ft{/* боковое повторение картинки Форм.ткста */
+    background-image: url(../image/mpig2.png);
+    background-size: 15%;  
+    background-repeat: repeat-y;
+    margin: 10px;
+    background-position: left;
+    float: right;
+    }
+
+
 .pm{
     background: #AEDDDF;
     border: 1px solid white;
