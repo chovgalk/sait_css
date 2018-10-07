@@ -32,10 +32,11 @@ ul.g_meny li a:hover:not(.active){  /* :hover псевдокласс котор�
 }
 
 @media (min-width:320px) and (max-width:780px) {
-   .need-hide{
-       display:none;
-   }
    img{display:none;}
+}
+
+@media (min-width:320px) and (max-width:640px) {
+   table{display:none;}
 }
 
 .text_css{
@@ -60,4 +61,57 @@ ul.g_meny li a:hover:not(.active){  /* :hover псевдокласс котор�
     padding-left: 3em;
 }
    
+
+
+.table_sapka{ /* Шапка таблицы */
+    font-family: Arial;
+    font-size:16px;
+    line-height: 30px;
+    padding: 10px;
+    background: #82B3B4;}
+
+
+.pm{
+    background: #AEDDDF;
+    border: 1px solid white;
+    font-family: courier new; /* шрифт печатной машинки */
+    padding: 15px;
+     }
+
+.pm_2{
+    background: #AEDDDF;
+    border: 1px solid white;
+    font-family: Arial; 
+    padding: 15px;
+     }
+
+.t2_a{
+    font-family: Arial;
+    font-size:24px;
+    line-height: 30px;
+    padding-left: 50px;
+    border: 4px dotted grey; 
+}
+
+
+.td_1{    /* Создает перечеркнутый текст */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: line-through;
+}
+
+
+.td_2{    /* Линия проходит над текстом */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: overline;
+}
+
+.td_3{    /* Устанавливает подчеркнутый текст */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: underline;
+}
+
+
 
