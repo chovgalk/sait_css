@@ -1,0 +1,63 @@
+.sapka_imege{
+	background-image: url(../image/sapka.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position:top center; 
+
+}
+ul.g_meny{
+    list-style-type: none;      /* убрать маркеры mаркированного спимка */
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background: #0DE003; 
+
+}
+ul.g_meny li{
+       float: left; /* обтекание слева, чтобы столбец превратить в строку */
+
+}
+ul.g_meny li a{
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    text-decoration: none; /* убрать подчеркование */
+    padding: 14px 16px;
+}
+ul.g_meny .active{
+    background: #042174;
+}
+ul.g_meny li a:hover:not(.active){  /* :hover псевдокласс который определяет поведение ебьекта при указании, применяеться ко.   not не использовать к active */
+  background:#6F7A98;  
+}
+
+@media (min-width:320px) and (max-width:780px) {
+   .need-hide{
+       display:none;
+   }
+   img{display:none;}
+}
+
+.text_css{
+    font-family:Arial;
+    font-size:70px;
+    text-transform:uppercase;
+    color: #FFFFFF;
+    text-align:left;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    text-shadow:-7px 0px 10px #55565B;
+    text-decoration: none;
+
+}
+
+.blok1{
+    font-family: Arial;
+    font-size:12px;
+    line-height: 18px;
+    width: 90%;
+    padding-left: 3em;
+}
+   
+
